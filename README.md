@@ -31,5 +31,5 @@ The model ingests 30+ years of monthly economic indicators from the [Federal Res
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/donnabrown77/CPIPredictor.git](https://github.com/donnabrown77/CPIPredictor.git)
+   git clone https://github.com/donnabrown77/CPIPredictor.git
    cd CPIPredictor
