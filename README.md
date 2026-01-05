@@ -6,7 +6,8 @@ Predicting Consumer Prices with Data
 ## 📌 Project Overview
 This project implements an end-to-end machine learning pipeline to forecast **US Consumer Price Index (CPI) Inflation** with a one-month horizon.
 
-Unlike standard textbook examples that use static datasets and random train-test splits, this project utilizes **Walk-Forward Validation (Expanding Window)** to simulate real-world trading/forecasting scenarios. It fetches live economic data from the Federal Reserve (FRED) API, tests for statistical causality, and compares a baseline Linear Regression model against an XGBoost regressor.
+Unlike standard textbook examples that use static datasets and random train-test splits, this project utilizes **Walk-Forward Validation (Expanding Window)** to simulate real-world trading/forecasting scenarios. It fetches live economic data from the Federal Reserve (FRED) API, tests for statistical causality, and compares a baseline Linear Regression model, an XGBoost regressor, and a RandForest model. XGBoost regressor produces the most accurate
+result.
 
 ## 🚀 Key Features
 * **Live Data Ingestion:** Automated ETL pipeline using `pandas_datareader` to fetch real-time data from FRED.
