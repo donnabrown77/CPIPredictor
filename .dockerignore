@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.git/
+.gitignore
+README.md
+*.png
+# Optional: Ignore the local model so the container generates a fresh one
+# inflation_model.joblib
