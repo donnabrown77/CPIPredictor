@@ -44,3 +44,13 @@ The model ingests 30+ years of monthly economic indicators from the [Federal Res
 
 3. Test the API: Open your browser to http://localhost:8000/predict or use curl:
    curl http://localhost:8000/predict
+
+## How to Run with Docker
+
+1. Make sure Docker is installed and running
+
+2. Build the image
+   docker build -t inflation-app .
+
+3. Run container (Train + Serve): This command tells Docker: "Run train.py and then, if that succeeds (&&), run serve.py."
+   docker run -p 8000:8000 inflation-app /bin/bash -c "python train.py && python serve.py"
