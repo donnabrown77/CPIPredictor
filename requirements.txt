@@ -6,3 +6,6 @@ xgboost>=1.6.0
 matplotlib>=3.5.0
 statsmodels>=0.13.0
 tqdm>=4.64.0
+joblib>=1.1.0       # For saving/loading the model artifact)
+fastapi>=0.68.0     # NEW (For the API framework)
+uvicorn>=0.15.0     # NEW (For the web server to run FastAPI)

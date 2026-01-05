@@ -33,3 +33,14 @@ The model ingests 30+ years of monthly economic indicators from the [Federal Res
    ```bash
    git clone https://github.com/donnabrown77/CPIPredictor.git
    cd CPIPredictor
+
+## How to Run as a Web Service
+
+1. Train the model
+   python train.py
+
+2. Run the web server
+   python serve.py
+
+3. Test the API: Open your browser to http://localhost:8000/predict or use curl:
+   curl http://localhost:8000/predict
